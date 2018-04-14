@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="txyun">
+    <serverData>
+      <paths name="txyun">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/WebsocketTest" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/etc/apache2/sites-available" local="$PROJECT_DIR$/apache-conf" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/db.sqlite3" />
+            <excludedPath local="true" path="$PROJECT_DIR$/ws/migrations" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
